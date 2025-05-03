@@ -1,7 +1,7 @@
 const http = require('http');
 
 const server = http.createServer((req, res) => {
-  res.end('Hello from Render! PR');
+  res.end('Freddy');
 });
 
 server.listen(process.env.PORT || 3000);
